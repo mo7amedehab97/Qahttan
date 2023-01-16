@@ -82,3 +82,8 @@
   bottom: -10px;
   left: -10px;
 }
+@media (max-width: 1090px) {
+  .what_they_say_container {
+    padding: 40px 35px;
+  }
+}

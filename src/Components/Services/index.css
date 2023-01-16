@@ -41,3 +41,24 @@
   border-right: 1px solid var(--text_color2);
   color: var(--text_color2);
 }
+@media (max-width: 1090px) {
+  .services_container {
+    padding: 120px 35px 80px;
+  }
+}
+@media (max-width: 1000px) {
+  .service_holder {
+    min-width: 360px;
+    margin-bottom: 90px;
+  }
+  .service_holder:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 820px) {
+  .services_container {
+ justify-content: center;
+ gap: 15px;
+  }
+}
