@@ -4,9 +4,9 @@ import "./index.css";
 const Title = ({ title }) => {
   return (
     <article className="title_container">
-      <img src={Left} alt="Left title icon" />
+      <img src={Left} alt="Left title icon" loading="lazy" />
       <h1>{title}</h1>
-      <img src={Right} alt="right title icon" />
+      <img src={Right} alt="right title icon" loading="lazy" />
     </article>
   );
 };

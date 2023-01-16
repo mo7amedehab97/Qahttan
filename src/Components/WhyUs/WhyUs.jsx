@@ -36,7 +36,7 @@ const WhyUs = () => {
   return (
     <section className="why_us_container">
       <div className="why_us_image">
-        <img src={Image1} alt="why us section cover image " />
+        <img src={Image1} alt="why us section cover image " loading="lazy" />
       </div>
       <div className="why_us_list">
         {why_us?.map((item) => (

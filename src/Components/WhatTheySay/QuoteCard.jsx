@@ -7,6 +7,7 @@ function QuoteCard({ quote: { name, desc, img } }) {
         src={img}
         alt="person image"
         className="person-img"
+        loading="lazy"
       />
       <div className="quote-words">
         <p>{desc}</p>
