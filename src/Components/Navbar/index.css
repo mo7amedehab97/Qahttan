@@ -1,0 +1,39 @@
+nav {
+  padding: 5px 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav_links {
+  display: flex;
+  gap: 16px;
+}
+.nav_links a {
+  line-height: 31px;
+  font-weight: 300;
+  font-size: 20px;
+  transition: all 1s ease-in-out;
+}
+
+.nav_links a:hover {
+  cursor: pointer;
+  color: var(--main);
+  font-weight: 400;
+}
+.nav_btn button {
+  border-radius: 25px;
+  padding: 8px 16px;
+  border: none;
+  background-color: var(--main);
+  color: var(--text_color3);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  cursor: pointer;
+}

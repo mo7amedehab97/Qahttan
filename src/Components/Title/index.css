@@ -1,0 +1,27 @@
+.title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.title_container h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 62px;
+  text-align: center;
+  color: var(--text_color1);
+}
+
+.title_container img {
+  width: 20px;
+  height: 35px;
+}
+.title_container img:nth-child(1) {
+  transform: rotate(-0deg);
+}
+.title_container :nth-child(3) {
+  transform: rotateY(-180deg);
+
+  /* background-color: red; */
+}
