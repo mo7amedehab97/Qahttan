@@ -1,11 +1,8 @@
 import "./index.css";
-import bannerBackground1 from "../../assets/Rectangle 1.svg";
-import bannerBackground2 from "../../assets/image 2.svg";
-import bannerBackground3 from "../../assets/image_2-removebg-preview.png";
+import bannerBackground1 from "../../assets/image_2-removebg-preview.png";
 const Banner = () => {
   return (
     <section className="banner_container">
-      
       <article className="banner_background_mobile">
         <div className="nav_details">
           <h1>
@@ -17,7 +14,7 @@ const Banner = () => {
           <button>تواصل معنا !</button>
         </div>
         <div className="nav_image">
-          <img src={bannerBackground3} alt="" />
+          <img src={bannerBackground1} alt="banner image cover " />
         </div>
       </article>
     </section>
