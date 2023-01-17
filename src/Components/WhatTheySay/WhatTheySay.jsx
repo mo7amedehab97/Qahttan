@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
@@ -29,12 +28,6 @@ const quotes = [
   },
 ];
 const WhatTheySay = () => {
-  const [pageCount, setPageCount] = useState(3);
-  useEffect(() => {
-    const width = window.innerWidth;
-    setPageCount(width);
-  }, [pageCount]);
-  console.log(pageCount);
   return (
     <section className="what_they_say_container">
       <Swiper
