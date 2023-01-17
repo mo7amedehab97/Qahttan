@@ -52,10 +52,6 @@ a {
   text-decoration: none;
   color: var(--text1);
 }
-li {
-  list-style: none;
-}
-
 @media (max-width: 1090px) {
   h1 {
     font-size: 30px;

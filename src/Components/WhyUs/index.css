@@ -48,6 +48,7 @@
   .why_us_container {
     padding: 40px 35px 60px;
   }
+
   .why_us_image,
   .why_us_list {
     width: 100%;
@@ -72,6 +73,11 @@
 @media (max-width: 740px) {
   .why_us_container {
     flex-direction: column;
+  }
+  .why_us_image,
+  .why_us_list {
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
 }
