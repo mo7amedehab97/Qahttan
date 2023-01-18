@@ -9,7 +9,7 @@ function QuoteCard({ quote: { name, desc, img, gender } }) {
         className={`person-img ${gender}`}
         loading="lazy"
       />
-      <div className="quote-words">
+      <div  className={`quote-words ${gender}_holder`}>
         <p>{desc}</p>
         <h3>{name}</h3>
       </div>

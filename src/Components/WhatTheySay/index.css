@@ -62,16 +62,22 @@
   border: 1px solid var(--main);
 }
 .female {
-  border: 1px solid #ff5975;
+  border: 1px solid #ff5975ac;
+  background-color: #fff;
 }
 .quote-words {
   position: relative;
   padding: 80px 20px 20px 20px;
-  box-shadow: 0px 8px 24px rgba(0, 173, 238, 0.1);
   background-color: #fff;
   border-radius: 16px;
 }
 
+.male_holder{
+  box-shadow: 0px 8px 24px rgba(0, 174, 238, 0.278);
+}
+.female_holder{
+  box-shadow: 0px 8px 24px rgba(248, 1, 141, 0.257);
+}
 .quote-words::after {
   content: url("../../assets/quote.svg");
   position: absolute;
