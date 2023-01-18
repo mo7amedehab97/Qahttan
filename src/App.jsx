@@ -1,6 +1,7 @@
 import Banner from "./Components/Banner/Banner";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
+import Satistics from "./Components/Satistics/Satistics";
 import Services from "./Components/Services/Services";
 import Title from "./Components/Title/Title";
 import WhatTheySay from "./Components/WhatTheySay/WhatTheySay";
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Title title="لماذا تختارنا" />
       <WhyUs />
+      <Satistics />
       <Title title="ماذا يقول عملائنا " />
 
       <WhatTheySay />

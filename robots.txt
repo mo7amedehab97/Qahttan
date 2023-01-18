@@ -1,7 +1,6 @@
 User-agent: *
 Disallow:
 
-User-agent: *
-Allow: /
+
 
 Sitemap:https://qahttan.vercel.app/sitemap.xml

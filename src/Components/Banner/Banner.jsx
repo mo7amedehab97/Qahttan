@@ -11,7 +11,8 @@ const Banner = () => {
           </h1>
 
           <p>ما تشيل هم كلمنا بنساعدك احجز خدمة مضمونة بكبسة زر</p>
-          <button>تواصل معنا !</button>
+          <a href="http://wa.me/+966570992826" target="_blank">
+       تواصل الأن !          </a>
         </div>
         <div className="nav_image">
           <img src={bannerBackground1} alt="banner image cover " />

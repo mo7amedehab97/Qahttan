@@ -57,7 +57,9 @@
   font-style: normal;
   color: var(--text_color1);
 }
-.footer_content div:nth-child(2) button {
+.footer_content div:nth-child(2) a {
+  display: block;
+  text-align: center            ;
   margin-top: 32px;
   padding: 4px 16px;
   border-radius: 25px;

@@ -1,26 +1,43 @@
 import "./index.css";
 import ServiceComp from "./ServiceComp";
+import img1 from "../../assets/ico1.svg";
+import img2 from "../../assets/ico2.svg";
+import img3 from "../../assets/ico3.svg";
 const servicesArray = [
   {
     id: 1,
-    name: "تنظيف السجاد",
+    name: "أستقدام عمالة",
     description:
-      "يجب علينا دائما أن نتواجد في مكان نظيف ومرتب لذلك نتوقع دائما أن يكون منزلك بهذا الشكل ",
-    img: "https://media.istockphoto.com/photos/the-countdown-to-clean-shiny-floors-picture-id1291180143?b=1&k=20&m=1291180143&s=170667a&w=0&h=Fc66R5Pn_Gs2K1XSKrwqX49aPmVwqINbY_oKqBh5IRo=",
+      "أستقدام عامل/عاملة بخبرات عالية - خادمات-شغالات من الفلبين-اوغندا-كينيا-بنقبلديش وغيرها ",
+    img: img1,
   },
   {
     id: 2,
-    name: "تنظيف السيارات",
+    name: "أستقدام حراس",
     description:
-      "نعرف أن الانتظار طويلا في محطات البنزين لغسيل السيارة الخاصة بك تعمل على تضيع الوقت منكشكل ",
-    img: "https://media.istockphoto.com/photos/the-car-wash-picture-id1128018249?b=1&k=20&m=1128018249&s=170667a&w=0&h=Jdq3AGdRlqwp72_pxUBthLrCPM6NKsfpp01tGD07s7w=",
+      "كما نوفر حراس مبني ومزارع  لحديقة المنزل وغيرها من المهن الاخري بخبرة عالية وضمان",
+    img: img3,
   },
   {
     id: 3,
-    name: "تنظيف منازل",
+    name: "أستقدام طباخين",
     description:
-      "ندرك صعوبة القيام بتنظيف السجاد من قبل النساء في البيوت لأنها تحتاج مجهود عضلي",
-    img: "https://media.istockphoto.com/photos/worker-removing-dirt-from-carpet-indoors-closeup-cleaning-service-picture-id1350817454?b=1&k=20&m=1350817454&s=170667a&w=0&h=zA7ymYDnadILctcL-ZlIGNtWdAlUckoN-rvZSpIPpBs=",
+      "وكذلك نوفر طباخين وطباخات للأحتياجات المنزلية المختلفة لديهم خبرة في مجال الطبخ بكافة انواعه",
+    img: img2,
+  },
+  {
+    id: 4,
+    name: "أستقدام طباخين",
+    description:
+      "وكذلك نوفر طباخين وطباخات للأحتياجات المنزلية المختلفة لديهم خبرة في مجال الطبخ بكافة انواعه",
+    img: img2,
+  },
+  {
+    id: 5,
+    name: "أستقدام طباخين",
+    description:
+      "وكذلك نوفر طباخين وطباخات للأحتياجات المنزلية المختلفة لديهم خبرة في مجال الطبخ بكافة انواعه",
+    img: img2,
   },
 ];
 const Services = () => {
