@@ -32,7 +32,7 @@ nav {
   color: var(--main);
   font-weight: 400;
 }
-.nav_btn button {
+.nav_btn a {
   border-radius: 25px;
   padding: 8px 16px;
   border: none;
@@ -57,7 +57,8 @@ nav {
   .nav_links {
     display: none;
   }
-  .nav_btn button {
+
+  .nav_btn a {
     border-radius: 25px;
     padding: 4px 12px;
     font-size: 16px;

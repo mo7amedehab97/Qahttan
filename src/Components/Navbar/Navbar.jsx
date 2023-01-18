@@ -10,7 +10,9 @@ const Navbar = () => {
         <a href="#services">الخدمات</a>|<a href="#about">من نحن</a>
       </div>
       <div className="nav_btn">
-        <button>احجز الأن</button>
+        <a href="http://wa.me/+9720595514207" target="_blank">
+          احجز الأن
+        </a>
       </div>
     </nav>
   );
