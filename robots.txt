@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap:https://qahttan.vercel.app/sitemap.xml
