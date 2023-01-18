@@ -1,4 +1,4 @@
-function QuoteCard({ quote: { name, desc, img } }) {
+function QuoteCard({ quote: { name, desc, img, gender } }) {
   return (
     <div className="quote-card">
       <img
@@ -6,7 +6,7 @@ function QuoteCard({ quote: { name, desc, img } }) {
         height={20}
         src={img}
         alt="person image"
-        className="person-img"
+        className={`person-img ${gender}`}
         loading="lazy"
       />
       <div className="quote-words">

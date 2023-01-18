@@ -5,26 +5,35 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./index.css";
 import QuoteCard from "./QuoteCard";
+import person1 from "../../assets/person1.jpg";
+import person2 from "../../assets/perosn2.jpg";
+import person3 from "../../assets/person3.jpg";
+import person4 from "../../assets/person41.svg";
+
 const quotes = [
   {
-    name: "محمد",
-    desc: "دائما يقومون بعمل جيد وبالوقت المحدد, انا حقا سعيد بهذه التجربة",
-    img: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    name: "نواف",
+    desc: "مكتب قطان مكانك المقالي لأيجاد العمالة المنزلية ",
+    img: person1,
+    gender: "male",
   },
   {
-    name: "تالين",
-    desc: "دائما يقومون بعمل جيد وبالوقت المحدد, انا حقا سعيد بهذه التجربة",
-    img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    name: "صخر",
+    desc: "دائما يقومون بعمل جيد وبالوقت المحدد, انا سعيد بالتعامل معهم ",
+    img: person2,
+    gender: "male",
   },
   {
-    name: "روز",
-    desc: "دائما يقومون بعمل جيد وبالوقت المحدد, انا حقا سعيد بهذه التجربة",
-    img: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+    name: "مشاعل",
+    desc: "خدمات ممتازة سرعة بالرد وناس ذوق اكيد ساتعامل معهم ثانيا ",
+    img: person4,
+    gender: "female",
   },
   {
     name: "أمجد",
-    desc: "دائما يقومون بعمل جيد وبالوقت المحدد, انا حقا سعيد بهذه التجربة",
-    img: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    desc: "لا يوجد تعقيدات من بداية طلب الخدم للدفع مقابلها ارشحهم لمساعدتك باستقدام العمالة",
+    img: person3,
+    gender: "male",
   },
 ];
 const WhatTheySay = () => {

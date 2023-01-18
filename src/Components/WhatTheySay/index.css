@@ -55,11 +55,15 @@
   top: 15px;
   border-radius: 50%;
   z-index: 2;
-  border: 1px solid var(--main);
   height: 120px !important;
   width: 120px !important;
 }
-
+.male {
+  border: 1px solid var(--main);
+}
+.female {
+  border: 1px solid #ff5975;
+}
 .quote-words {
   position: relative;
   padding: 80px 20px 20px 20px;
