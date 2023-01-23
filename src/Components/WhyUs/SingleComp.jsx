@@ -1,6 +1,10 @@
+import { motion } from "framer-motion";
 const SingleComp = ({ data }) => {
   return (
-    <section className="why_us_comp_container">
+    <motion.section
+
+    className="why_us_comp_container"
+    >
       <img
         src={data?.srcImg}
         loading="lazy"
@@ -10,7 +14,7 @@ const SingleComp = ({ data }) => {
         <h3>{data?.name}</h3>
         <p>{data?.description}</p>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

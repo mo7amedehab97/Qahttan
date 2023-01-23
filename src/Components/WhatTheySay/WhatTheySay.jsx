@@ -8,7 +8,7 @@ import QuoteCard from "./QuoteCard";
 import person1 from "../../assets/person1.jpg";
 import person2 from "../../assets/perosn2.jpg";
 import person3 from "../../assets/person3.jpg";
-import person4 from "../../assets/person41.svg";
+import person4 from "../../assets/women1.jpg";
 
 const quotes = [
   {

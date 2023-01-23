@@ -5,7 +5,7 @@ import img2 from "../../assets/ico2.svg";
 import img3 from "../../assets/nurse.svg";
 import img4 from "../../assets/car.svg";
 import img5 from "../../assets/security.svg";
-
+import { motion } from "framer-motion";
 const servicesArray = [
   {
     id: 1,
