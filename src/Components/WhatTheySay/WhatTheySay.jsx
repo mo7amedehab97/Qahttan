@@ -13,7 +13,7 @@ import person4 from "../../assets/women1.jpg";
 const quotes = [
   {
     name: "نواف",
-    desc: "مكتب قطان مكانك المقالي لأيجاد العمالة المنزلية ",
+    desc: "مكتب قطان مكانك المثالي لأيجاد العمالة المنزلية ",
     img: person1,
     gender: "male",
   },
