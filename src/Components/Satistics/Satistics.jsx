@@ -3,7 +3,7 @@ import "./index.css";
 const satisticsData = [
   {
     id: 1,
-    number: 984,
+    number: 70,
     name: "العروض",
   },
   {
@@ -13,7 +13,7 @@ const satisticsData = [
   },
   {
     id: 3,
-    number: 299,
+    number: 7,
     name: "مكتب نشط",
   },
   {

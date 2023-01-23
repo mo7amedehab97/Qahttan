@@ -5,9 +5,6 @@ import Reservation from "../../assets/Reservation.png";
 import Discount from "../../assets/discounts.png";
 import Support from "../../assets/support.png";
 import SingleComp from "./SingleComp";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
 const why_us = [
   {
     id: 1,
@@ -37,34 +34,16 @@ const why_us = [
   },
 ];
 const WhyUs = () => {
-  const { ref, inView } = useInView({
-    threshold: 0.2,
-  });
-  const animation = useAnimation();
-  useEffect(() => {
-    if (inView) {
-      animation.start({
-        x: 0,
-        transition: { type: "spring", duration: 2, bounce: 0.5 },
-      });
-    }
-    if (!inView) {
-      animation.start({
-        x: -250,
-      });
-    }
-  }, [inView]);
-
   return (
     <section className="why_us_container">
       <div className="why_us_image">
         <img src={Image1} alt="why us section cover image " loading="lazy" />
       </div>
-      <motion.div ref={ref} animate={animation} className="why_us_list">
+      <div className="why_us_list">
         {why_us?.map((item) => (
           <SingleComp key={item.id} data={item} />
         ))}
-      </motion.div>
+      </div>
     </section>
   );
 };

@@ -3,4 +3,4 @@ Disallow:
 
 
 
-Sitemap:https://qahttan.vercel.app/sitemap.xml
+Sitemap:https://www.qahttanservices.com/sitemap.xml
