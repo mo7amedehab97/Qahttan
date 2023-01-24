@@ -1,6 +1,3 @@
 User-agent: *
-Disallow:
-
-
-
-Sitemap:https://www.qahttanservices.com/sitemap.xml
+Disallow:/public/
+Sitemap:http://www.qahttanservices.com/sitemap.xml
