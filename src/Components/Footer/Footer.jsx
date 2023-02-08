@@ -1,6 +1,6 @@
-import React from "react";
-import "./index.css";
-import Logo from "../../assets/logo-min (1).png";
+import React from 'react';
+import './index.css';
+import Logo from '../../assets/logo-min (1).png';
 const Footer = () => {
   return (
     <footer className="footer_container">
@@ -29,9 +29,10 @@ const Footer = () => {
             />
 
             <p>
-              شركة قحطان الرائدة في مجال الاستقدام تمنحك راحة البال وتختصر عليك
-              الاستقدام خطوات بسيطة تستطيع الحصول على متخصصين من جميع الدول فقط
-              تواصل معنا عبر واتساب لدينا فريق ذو خبرة عالية لأي مهمة
+              شركة قحطان الرائدة في مجال الاستقدام تمنحك راحة البال
+              وتختصر عليك الاستقدام خطوات بسيطة تستطيع الحصول على
+              متخصصين من جميع الدول فقط تواصل معنا عبر واتساب لدينا
+              فريق ذو خبرة عالية لأي مهمة
             </p>
           </div>
           <div>
@@ -39,6 +40,7 @@ const Footer = () => {
             <a href="http://wa.me/+966570992826" target="_blank">
               اتصل الأن
             </a>
+            <p><span>اتصل بنا :</span> 966570992826+</p>
           </div>
         </article>
         <article className="copyright">
