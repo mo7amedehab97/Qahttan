@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 import AboutComp from "../Components/About/AboutComp";
+import WhatsAppComp from "../Components/whatsAppComp/WhatsAppComp";
 
 const About = () => {
   return (
@@ -9,6 +10,7 @@ const About = () => {
       <Navbar />
       <AboutComp />
       <Footer />
+      <WhatsAppComp />
     </>
   );
 };

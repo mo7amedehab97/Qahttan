@@ -5,6 +5,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import Satistics from "../Components/Satistics/Satistics";
 import Services from "../Components/Services/Services";
 import Title from "../Components/Title/Title";
+import WhatsAppComp from "../Components/whatsAppComp/WhatsAppComp";
 import WhatTheySay from "../Components/WhatTheySay/WhatTheySay";
 import WhyUs from "../Components/WhyUs/WhyUs";
 
@@ -21,6 +22,8 @@ const Home = () => {
       <Title title="ماذا يقول عملائنا " />
       <WhatTheySay />
       <Footer />
+      <WhatsAppComp />
+
     </>
   );
 };
